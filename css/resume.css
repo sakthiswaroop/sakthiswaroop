@@ -190,3 +190,12 @@ a {
 a:hover, a:focus, a:active {
   color: #824027;
 }
+
+.carousel-indicators li{
+
+  background-color: #ff0000 !important;
+}
+
+.carousel-indicators li:active {
+  background-color: #f8f9fa !important; 
+}
