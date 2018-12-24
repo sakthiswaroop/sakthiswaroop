@@ -199,3 +199,14 @@ a:hover, a:focus, a:active {
 .carousel-indicators li:active {
   background-color: #f8f9fa !important; 
 }
+.carousel-indicators .carousel-inner {
+    display: flex;
+    justify-content: center;
+    width: auto !important;
+  }
+.carousel-indicators .carousel-item {
+   width: auto !important;
+}
+.carousel-inner .carousel-item img{
+  margin: 0 auto;
+}
